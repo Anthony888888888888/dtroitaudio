@@ -1,0 +1,80 @@
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f8f9fa;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    margin: 0;
+}
+
+.register-form {
+    background-color: #fff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    border-radius: 8px;
+    text-align: center;
+}
+
+.register-form h1 {
+    color: #333;
+    margin-bottom: 20px;
+}
+
+.register-form form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.register-form label {
+    font-weight: bold;
+}
+
+.register-form input {
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+    border: 1px solid #ced4da;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+.button-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 20px;
+}
+
+.btn-cancel {
+    color: #ffffff;
+    background-color: #6c757d; /* Gris medio de Bootstrap */
+    border: 1px solid #6c757d; /* Gris medio de Bootstrap */
+}
+
+
+/* Estilos para los enlaces */
+.btn-cancel, .btn-save, .btn-register {
+    text-decoration: none;
+    cursor: pointer;
+    transition: color 0.3s;
+}
+
+.btn-register {
+    display: block;
+    margin-top: 10px;
+    color: #555;
+}
+
+.btn-register:hover {
+    color: #404040;
+}
+
+.btn-cancel:hover {
+    color: #ffffff;
+}
+
+.btn-save:hover {
+    color: #ffffff;
+}

@@ -1,0 +1,33 @@
+/* Estilos personalizados para el footer */
+footer {
+    background-color: #343a40; /* Fondo gris oscuro */
+    padding: 40px 0;
+    color: #ffffff; /* Color de texto blanco */
+  }
+  
+  .footer-logo {
+    font-size: 2.5rem;
+    font-weight: bold;
+    margin-bottom: 20px;
+  }
+  
+  .footer-info {
+    font-size: 1rem;
+    margin-bottom: 20px;
+  }
+  
+  .footer-social-icons {
+    font-size: 2.5rem;
+  }
+  
+  .footer-social-icons a {
+    color: #ffffff; /* Color del ícono blanco */
+    margin: 0 15px;
+    transition: color 0.3s;
+  }
+  
+  .footer-social-icons a:hover {
+    color: #007bff; /* Cambio de color al pasar el ratón sobre el ícono social */
+  }
+  
+  
